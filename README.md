@@ -88,7 +88,7 @@ http://localhost:3000
 --- 
 ## 🎥 Demo – How to Play
 
-- [Watch Demo Video](guess_who.mov)
+- [Watch Demo Video](https://drive.google.com/file/d/1TJxGNLKV_cif54BTIieIbAS7CtOfIphh/view?usp=sharing)
 
 This demo video walks through how to play the Guess Who application:
 
