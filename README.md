@@ -1,3 +1,93 @@
+# Guess Who Application – Overview
+This project is a web-based version of the classic Guess Who game, built using Ruby on Rails.
+
+The application allows users to play an interactive character-guessing game with one other person by asking questions, eliminating options, and narrowing down to a final answer.
+
+## What This App Does
+
+- Displays a collection of characters, each with an image and name  
+- Supports user authentication (sign up, log in, log out)  
+- Allows users to create and manage custom characters  
+- Enables interactive gameplay through yes/no questions between players  
+- Allows players to eliminate characters based on responses  
+- Dynamically tracks remaining possible characters  
+- Allows users to make a final character selection (guess)
+
+## 🧠 What This Project Demonstrates
+
+- **Full-stack web development** using Ruby on Rails  
+- **MVC architecture** (Models, Views, Controllers) to structure application logic  
+- **User authentication** (sign up, login, logout) and account management  
+- **Database design and relationships** for managing characters and game state  
+- **CRUD operations** (create, read, update, delete) for dynamic content  
+- **Interactive application logic** for gameplay and state tracking  
+- **Version control and development workflow** using Git and GitHub 
+
+---
+
+## Running the Application
+
+This project can be run either locally or using GitHub Codespaces.
+
+---
+
+### ☁️ Option 1: Run with GitHub Codespaces
+
+1. Open this repository on GitHub  
+2. Click the green **Code** button  
+3. Select the **Codespaces** tab  
+4. Click **Create codespace on main**  
+5. Once the Codespace loads, open the terminal  
+
+Run:
+
+```bash
+bundle install
+bin/rails db:create
+bin/rails db:migrate
+bin/rails server -b 0.0.0.0
+```
+
+6. Open the **Ports** tab  
+7. Find port `3000` and click **Open in Browser**
+
+---
+
+### 💻 Option 2: Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/arenmizuno/BUSN-20550-guess_who.git
+cd BUSN-20550-guess_who
+```
+
+2. Install dependencies:
+
+```bash
+bundle install
+```
+
+3. Set up the database:
+
+```bash
+bin/rails db:create
+bin/rails db:migrate
+```
+
+4. Start the server:
+
+```bash
+bin/rails server
+```
+
+5. Open your browser:
+
+```
+http://localhost:3000
+```
+
+--- 
 # Rails Template
 
 This is a base Ruby on Rails repository configured for learning with Codespaces (and Gitpod).
