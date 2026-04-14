@@ -86,6 +86,22 @@ http://localhost:3000
 ```
 
 --- 
+## 🎥 Demo – How to Play
+
+- [Watch Demo Video](guess_who.mov)
+
+This demo video walks through how to play the Guess Who application:
+
+- Create an account or log in  
+- Start a game and view the available characters  
+- Ask yes/no questions to narrow down possible characters  
+- Eliminate characters based on responses  
+- Continue refining your guesses as the pool shrinks  
+- Select a final character to make your guess  
+
+The video demonstrates the full gameplay flow, including user interaction, character elimination, and final selection.
+
+--- 
 # Rails Template
 
 This is a base Ruby on Rails repository configured for learning with Codespaces (and Gitpod).
