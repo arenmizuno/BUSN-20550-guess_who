@@ -3,7 +3,7 @@ This project is a web-based version of the classic Guess Who game, built using R
 
 The application allows users to play an interactive character-guessing game with one other person by asking questions, eliminating options, and narrowing down to a final answer.
 
-## What This App Does
+## Application Features
 
 - Displays a collection of characters, each with an image and name  
 - Supports user authentication (sign up, log in, log out)  
@@ -13,7 +13,7 @@ The application allows users to play an interactive character-guessing game with
 - Dynamically tracks remaining possible characters  
 - Allows users to make a final character selection (guess)
 
-## 🧠 What This Project Demonstrates
+## Skills & Concepts Demonstrated
 
 - **Full-stack web development** using Ruby on Rails  
 - **MVC architecture** (Models, Views, Controllers) to structure application logic  
