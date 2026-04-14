@@ -29,8 +29,6 @@ The application allows users to play an interactive character-guessing game with
 
 This project can be run either locally or using GitHub Codespaces.
 
----
-
 ### ☁️ Option 1: Run with GitHub Codespaces
 
 1. Open this repository on GitHub  
